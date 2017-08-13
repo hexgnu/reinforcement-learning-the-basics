@@ -19,6 +19,6 @@ def policy(current_state, total_reward = 0):
     
         print("Taking action to get to state {}".format(new_state))
 
-        greedy_policy(current_state[new_state], total_reward + new_state)
+        policy(current_state[new_state], total_reward + new_state)
 
 
